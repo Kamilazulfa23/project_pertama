@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Luas Bangun Datar</title>
+</head>
+<body>
+    <h1>Hasil Perhitungan Luas</h1>
+    <p id="persegiPanjang"></p>
+    <p id="bujurSangkar"></p>
+    <p id="segitiga"></p>
+
+    <script>
+        // Menghitung luas persegi panjang
+        let panjang = 10;
+        let lebar = 5;
+        let luasPersegiPanjang = panjang * lebar;
+        document.getElementById("persegiPanjang").innerText = "Luas Persegi Panjang: " + luasPersegiPanjang;
+
+        // Menghitung luas bujur sangkar
+        let sisi = 10;
+        let luasBujurSangkar = sisi * sisi;
+        document.getElementById("bujurSangkar").innerText = "Luas Bujur Sangkar: " + luasBujurSangkar;
+
+        // Menghitung luas segitiga
+        let alas = 13;
+        let tinggi = 10;
+        let luasSegitiga = 0.5 * alas * tinggi;
+        document.getElementById("segitiga").innerText = "Luas Segitiga: " + luasSegitiga;
+    </script>
+</body>
+</html>
